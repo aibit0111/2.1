@@ -1,0 +1,80 @@
+<html>
+<style>
+#container {
+    width: 960px;
+    margin: 0 auto;
+}
+#primary {
+    float: left;
+    width: 278px;
+	padding-left: 164px;
+	padding-top: 64px;
+	
+	}
+#content {
+    float: left;
+    padding-top: 64px;
+
+	width: 142px;
+}
+#secondary {
+    float: left;
+    padding-top: 64px;
+
+	width: 240px;
+}
+#footer {
+    clear: both;
+}
+</style>
+<head>
+Dual List</br>
+</head>
+<body>
+<div id="primary">
+    <p> Available employee</p>
+		<p> <input type ="text" placeholder = "Name" id = "name"> <input type ="button" value = "Add" id = "name" Onclick = add()>  </p>
+		<div id ="added"> </div>
+        <table>
+			<td>
+				<tr>Hello</tr></br>	
+				<tr>Hello</tr></br>	
+				<tr>Hello</tr></br>	
+				<tr>Hello</tr></br>		
+			</td>
+			
+        </table>
+
+</div>    
+<div id="content">
+</br>
+</br>
+</br>
+    <p><input type ="button" value = ">>>" id = "name"></p>
+	<p><input type ="button" value = "<<<" id = "name"></p>
+</div>
+    
+<div id="secondary">
+   <p> Selected employee </p>
+    <table>
+			<td>
+				<tr>Hello</tr></br>	
+				<tr>Hello</tr></br>	
+				<tr>Hello</tr></br>	
+				<tr>Hello</tr></br>		
+			</td>
+			
+        </table>
+</div>
+<script>
+
+function add(){
+    var i = document.getElementById("name").value;
+	document.getElementById("added").innerHTML =  i;
+ if (	
+}
+
+
+</script>
+</body>
+</html>
